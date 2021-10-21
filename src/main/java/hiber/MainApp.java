@@ -31,7 +31,7 @@ public class MainApp {
          System.out.println();
       }
 
-      User user = userService.getUserByCar("Pepelaz", 1986);
+      User user = userService.getUserByCarModelAndSeries("Pepelaz", 1986);
 
       System.out.println("\n" + user.getCar() + " belongs to " + user.getFirstName());
 
